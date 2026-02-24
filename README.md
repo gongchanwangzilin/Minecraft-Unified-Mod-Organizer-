@@ -1,5 +1,6 @@
-# Minecraft-Unified-Mod-Organizer-
-一个我的世界游戏的统一插件，希望可以打破三版本模组无法通用的壁垒，让更多开发者更轻松的开发。A unified plugin for Minecraft that aims to break the barrier of incompatible mods across three editions, making development easier for more developers.
+# Minecraft-Unified-Mod-Organizer- 我的世界模组统一器
+一个我的世界游戏的统一插件，希望可以打破三版本模组无法通用的壁垒，让更多开发者更轻松的开发。
+A unified plugin for Minecraft that aims to break the barrier of incompatible mods across three editions, making development easier for more developers.
 跨平台Minecraft模组兼容工具，实现Java版、基岩版（国际版）、网易中国版之间的资源互通。
  
 ---
@@ -592,29 +593,8 @@ adb shell minecraft-unifier-injector --input /sdcard/Minecraft.apk --output /sdc
  
 ## 开源协议
  
-MIT License
- 
-Copyright (c) 2026 Minecraft Unifier Team
- 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
- 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
- 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
- 
----
+非个人使用、商用需我们的授权，其它合法行为可直接使用。（邮箱：jqyh1026@outlook.com)
+使用代表您同意此协议。
  
 ## 开发计划
  
