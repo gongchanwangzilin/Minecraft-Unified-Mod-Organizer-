@@ -21,7 +21,7 @@ A unified plugin for Minecraft that aims to break the barrier of incompatible mo
 - [常见问题](#常见问题)
 - [安全与合规](#安全与合规)
 - [变更日志](#变更日志)
-- [开源申明](#开源声明)
+- [开源声明](#开源声明)
 - [联系方式](#联系方式)
 
 ---
