@@ -282,12 +282,11 @@ This project is an open-source learning project for technical research purposes 
 2. This tool does not contain any copyrighted assets from Mojang Studios
 3. All mods, shaders, and resource packs must be obtained by users themselves and belong to their respective copyright holders
 4. Developers are not legally responsible for any issues caused by using this tool
+5. I'm just a junior high school student，thanks
 
 ## License
 
-MIT License
-
-Copyright (c) 2026 Minecraft Unifier Team
+Unauthorized commercial and illegal use is strictly prohibited. For commercial use, please contact the author.
 
 ## Contributing
 
