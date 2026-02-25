@@ -2,6 +2,8 @@
 
 跨平台Minecraft模组兼容工具，实现Java版、基岩版（国际版）、网易中国版之间的资源互通。
 
+Minecraft-Unified-Mod-Organizer- 我的世界模组统一器
+一个我的世界游戏的统一插件，希望可以打破三版本模组无法通用的壁垒，让更多开发者更轻松的开发。 A unified plugin for Minecraft that aims to break the barrier of incompatible mods across three editions, making development easier for more developers.
 ---
 
 ## 📖 目录
