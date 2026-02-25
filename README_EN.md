@@ -6,6 +6,10 @@ A cross-platform Minecraft mod compatibility tool that enables resource interope
 
 This project aims to break down the resource barriers between Minecraft Java Edition, Bedrock Edition (International), and Netease China Edition, enabling Bedrock Edition to fully support Java Edition shader packs, various mods, and resource packs.
 
+### Developer Information
+
+This project is independently developed by a middle school student, aiming to learn and research cross-platform software technology, reverse engineering, and game mod development.
+
 ### Core Features
 
 - **Static Injection Technology**: All modifications are completed during installation/build phase; only necessary compatibility modules are loaded during game runtime
@@ -163,6 +167,10 @@ cmake --build .
 
 ### 1. Pack Mods
 
+#### Java Mods
+
+Java mods can be imported directly, and will be automatically converted to .cmc format on first use:
+
 ```cpp
 #include "packer/windows/netease_packer.h"
 
@@ -172,9 +180,30 @@ using namespace mcu::packer::windows;
 UnifiedPacker packer;
 packer.SetOutputDir("./output");
 
-// Pack Java mod
+// Import Java mod directly, auto-convert on first use
 packer.Pack("mod.jar", "mod.cmc");
+```
 
+#### Netease Mods
+
+Netease mods do not require conversion. Developers provide the project folder, and use our tool to pack it as .cmc format:
+
+```cpp
+#include "packer/windows/netease_packer.h"
+
+using namespace mcu::packer::windows;
+
+// Create unified packer
+UnifiedPacker packer;
+packer.SetOutputDir("./output");
+
+// Pack Netease mod project folder
+packer.Pack("netease_mod_project/", "mod.cmc");
+```
+
+#### Shader Packs
+
+```cpp
 // Pack shader pack
 packer.Pack("shaderpack/", "shader.cmc");
 ```
@@ -282,11 +311,12 @@ This project is an open-source learning project for technical research purposes 
 2. This tool does not contain any copyrighted assets from Mojang Studios
 3. All mods, shaders, and resource packs must be obtained by users themselves and belong to their respective copyright holders
 4. Developers are not legally responsible for any issues caused by using this tool
-5. I'm just a junior high school student，thanks
 
 ## License
 
-Unauthorized commercial and illegal use is strictly prohibited. For commercial use, please contact the author.
+MIT License
+
+Copyright (c) 2026 Minecraft Unifier Team
 
 ## Contributing
 
